@@ -1,68 +1,124 @@
-.....
-<header>
-  <h1>BOOKIKO</h1>
-  <p>Your trusted Book Store in Kenya.</p>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookio | More than just a bookstore</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
 
-<nav>
-  <a href="#">Head</a>
-  <a href="#">About</a>
-  <a href="#">Books</a>
-  <a href="#">Order/Register</a>
-  <a href="#">Contact</a>
-</nav>
+    <header>
+        <div class="logo">Bookio</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#mission">Our Mission</a></li>
+                <li><a href="#writers">Writers</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<main>
-  <h2>This Month</h2>     
-  <p>Books we get this Month.</p>
-  <section>
-    <figure>
-    <img src="Theart.jpg" alt="The art of being alone"> 
-    <figcaption>Price $10.40.</figcaption>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Your next adventure starts here.</h1>
+            <p>A curated space for those who love the smell of paper and the power of words.</p>
+        </section>
 
-    <figure>
-    <img src="Atomic.jpg" alt="Atomic Habits"> 
-    <figcaption>Price $10.40.</figcaption>
-    </figure>
+        <div class="layout-grid">
+            
+            <!-- Content Left Area -->
+            <div class="content-main">
+                
+                <!-- About & Mission -->
+                <section id="about" class="info-block">
+                    <h2>About Us</h2>
+                    <p>Founded in 2024, Bookio began as a small corner shop and grew into a digital sanctuary for readers worldwide.</p>
+                </section>
 
-    <figure>
-    <img src="Laziness.jpg" alt="The art of laziness"> 
-    <figcaption>Price $10.40.</figcaption>
-    </figure>
+                <section id="mission" class="info-block">
+                    <h2>Our Mission</h2>
+                    <p>To bridge the gap between independent authors and curious readers, fostering a global community of lifelong learners.</p>
+                </section>
 
-    <figure>
-    <img src="Thefault.jpg" alt="The fault in our stars"> 
-    <figcaption>Price $10.40.</figcaption>
-    </figure>
-  </section>
+                <!-- Books Section -->
+                <section id="books" class="bookshelf">
+                    <h2>Featured Books</h2>
+                    <div class="book-list">
+                        <article class="book-item">
+                            <figure>
+                                <img src="https://images.unsplash.com/photo-1543004629-142a4446302a?auto=format&fit=crop&q=80&w=400" alt="Book Cover">
+                                <figcaption><em>The Midnight Library</em> - Matt Haig</figcaption>
+                            </figure>
+                            <p>Between life and death there is a library...</p>
+                            <button class="btn-sm">Learn More</button>
+                        </article>
 
-  <section>
-    <h2>New Released Books</h2>     
-    <p>Learn web development and programming.</p> 
-  </section>
+                        <article class="book-item">
+                            <figure>
+                                <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=400" alt="Book Cover">
+                                <figcaption><em>The Great Gatsby</em> - F. Scott Fitzgerald</figcaption>
+                            </figure>
+                            <p>A classic tale of ambition, love, and the American dream.</p>
+                            <button class="btn-sm">Learn More</button>
+                        </article>
+                    </div>
+                </section>
 
-  <article>
-     <h2>Best Selling Books</h2>     
-     <p>Python remains one of the most popular programming languages.</p> 
-  </article>
+                <!-- News Section -->
+                <section id="news" class="news-section">
+                    <h2>Latest News</h2>
+                    <article class="news-card">
+                        <h3>Bookio Literary Festival 2024</h3>
+                        <time datetime="2024-05-20">May 20, 2024</time>
+                        <p>Join us for a week-long celebration of literature and workshops.</p>
+                    </article>
+                </section>
+            </div>
 
-  <aside>
-    <h2>Flash Sale</h2>
-    <h3>Related Articles</h3>     
-    <ul>         
-      <li>Learn HTML</li>         
-      <li>Introduction to CSS</li>     
-    </ul> 
-  </aside>
+            <!-- Sidebar -->
+            <aside id="writers">
+                <h3>Featured Writers</h3>
+                <div class="writer-profile">
+                    <img src="https://images.unsplash.com/photo-1476067897447-d0c5df27b5df?auto=format&fit=crop&q=80&w=100" alt="Author">
+                    <p><strong>Elena Rivers</strong><br>Contemporary Fiction</p>
+                </div>
+                <div class="writer-profile">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100" alt="Author">
+                    <p><strong>Marcus Thorne</strong><br>Science Fiction</p>
+                </div>
 
-  <h2>Favorite Authors</h2>
+                <div class="quick-links">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li>Best Sellers</li>
+                        <li>New Arrivals</li>
+                        <li>Audiobooks</li>
+                    </ul>
+                </div>
+            </aside>
 
-  
+        </div>
+    </main>
 
-  <footer>
-    <p>&copy; 2026 Bookiko. All rights reserved.</p> 
-  </footer>
-</main>
-    
+    <footer id="contacts">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h4>Bookio Headquarters</h4>
+                <p>123 Library Lane, Inkwell City</p>
+                <p>Email: hello@bookio.com</p>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2024 Bookio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
-               
+</body>
+</html>
